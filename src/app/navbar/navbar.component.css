@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding-inline: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .logo {
+    font-size: 15px;
+    font-weight: bold;
+    padding:0px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+  

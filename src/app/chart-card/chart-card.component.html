@@ -1,0 +1,16 @@
+<!-- Main Card -->
+<div class="chart-card" (click)="openModal()">
+  <div class="top-bar">Top Numbers</div>
+  <canvas baseChart></canvas>
+  <div class="bottom-bar">Bottom Numbers</div>
+</div>
+
+<!-- Modal -->
+<div *ngIf="showModal" class="modal-overlay">
+  <div class="modal-content">
+    <button class="close-btn" (click)="closeModal()">✖</button>
+    <h3>Additional Charts</h3>
+    <canvas baseChart></canvas>
+    <canvas baseChart></canvas>
+  </div>
+</div>

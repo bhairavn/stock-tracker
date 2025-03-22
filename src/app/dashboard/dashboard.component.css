@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  gap: 15px;
+  max-width: 100%; /* Prevent overflow */
+ padding: 10px;
+  background-color: rgb(102, 102, 114);
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center grid within screen */
+  max-width: 100vw;
+  overflow: hidden;
+}
